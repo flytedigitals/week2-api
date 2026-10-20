@@ -1,0 +1,24 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif; }
+body { background:#fffbf5; color:#2d1b0e; }
+nav { display:flex; justify-content:space-between; padding:20px 6%; align-items:center; background:white; position:sticky; top:0; z-index:10; box-shadow:0 2px 15px rgba(0,0,0,0.05); }
+.logo { font-family:'Playfair Display', serif; font-size:24px; font-weight:700; color:#c2410c; }
+nav ul { display:flex; list-style:none; gap:25px; align-items:center; }
+.btn-small { background:#c2410c; color:white; border:none; padding:8px 16px; border-radius:20px; cursor:pointer; }
+.hero { display:flex; padding:60px 6%; gap:40px; align-items:center; flex-wrap:wrap; }
+.hero-text { flex:1; min-width:300px; }
+.hero-text h1 { font-family:'Playfair Display', serif; font-size:56px; line-height:1.1; }
+.hero-text h1 span { color:#c2410c; }
+.hero-text p { margin:20px 0; color:#6b5a4e; font-size:18px; }
+.btn-main { background:#c2410c; color:white; border:none; padding:14px 28px; border-radius:30px; font-size:16px; cursor:pointer; transition:0.3s; }
+.btn-main:hover { transform:translateY(-2px); box-shadow:0 10px 20px rgba(194,65,12,0.3); }
+.hero-image { flex:1; min-width:300px; display:flex; justify-content:center; }
+.img-card { width:100%; max-width:420px; height:420px; background:linear-gradient(135deg, #ffedd5, #fed7aa); border-radius:30px; border:8px solid white; box-shadow:0 20px 40px rgba(0,0,0,0.1); background-image:url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600'); background-size:cover; background-position:center; }
+.features { display:flex; gap:20px; padding:40px 6%; flex-wrap:wrap; }
+.card { flex:1; min-width:250px; background:white; padding:25px; border-radius:20px; box-shadow:0 5px 20px rgba(0,0,0,0.05); }
+.join-section { text-align:center; padding:80px 6%; background:white; margin:40px 6%; border-radius:30px; }
+.join-section h2 { font-family:'Playfair Display', serif; font-size:36px; }
+.form-box { max-width:400px; margin:30px auto; display:flex; flex-direction:column; gap:15px; }
+.form-box input { padding:14px 18px; border-radius:30px; border:1px solid #e7d5c5; outline:none; font-size:16px; }
+.full { width:100%; }
+#result { margin-top:15px; font-weight:500; color:#c2410c; }
+footer { text-align:center; padding:30px; color:#9c8a7e; }

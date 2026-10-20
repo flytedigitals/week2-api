@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delightful Taste | Authentic Flavors</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="logo">Delightful Taste</div>
+    <ul>
+      <li>Home</li><li>Menu</li><li>About</li>
+      <li><button class="btn-small" onclick="document.getElementById('join').scrollIntoView()">Join Us</button></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Every Bite Tells<br><span>A Story</span></h1>
+      <p>Authentic Nigerian & Continental dishes made with love, fresh ingredients, and delightful passion in Abuja.</p>
+      <button class="btn-main" onclick="document.getElementById('join').scrollIntoView()">Reserve a Taste</button>
+    </div>
+    <div class="hero-image">
+      <div class="img-card"></div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="card"><h3>🍲 Fresh Daily</h3><p>We cook fresh every morning. No leftovers, only delightful.</p></div>
+    <div class="card"><h3>🚚 Fast Delivery</h3><p>Hot and fast to any part of Abuja within 45 minutes.</p></div>
+    <div class="card"><h3>👨‍🍳 Master Chefs</h3><p>10+ years experience crafting flavors you won't forget.</p></div>
+  </section>
+
+  <section id="join" class="join-section">
+    <h2>Be Part of Delightful Family</h2>
+    <p>Sign up and get 15% off your first order. This connects directly to YOUR backend!</p>
+    <div class="form-box">
+      <input id="name" type="text" placeholder="Your Name e.g. Fola" />
+      <input id="email" type="email" placeholder="Your Email e.g. Fola@gmail.com" />
+      <button class="btn-main full" onclick="createUser()">Join & Get Discount</button>
+      <p id="result"></p>
+    </div>
+  </section>
+
+  <footer>© 2026 Delightful Taste • Built by Fola with Love</footer>
+  <script src="script.js"></script>
+</body>
+</html>
